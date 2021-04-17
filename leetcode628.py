@@ -2,6 +2,9 @@
 from typing import List
 import sys
 
+
+[-10,-10,1,2,3,4,5]
+
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
         max1=max2=max3=sys.maxsize*-1

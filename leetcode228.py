@@ -1,6 +1,16 @@
 from typing import List
 
 
+#[0,1,2,4,5,7]
+[[0,1,2],[4,5],[7]]
+[]
+num =1
+[[0]]
+[[0,1]]
+[[0,1,2]]
+[[0,2],[4]]
+[[0,2],[4,5]]
+[[0,2],[4,5],[7]]
 class Solution:
     def summaryRanges(self, nums: List[int])->List[str]:
         res=[]
