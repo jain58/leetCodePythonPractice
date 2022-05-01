@@ -13,13 +13,6 @@ for char in count:
 
 print("Result "+str(result))
 
-
-
-
-
-
-
-
 """class Solution(object):
     def canPermutePalindrome(self, s):
        

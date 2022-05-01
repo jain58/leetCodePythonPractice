@@ -1,6 +1,6 @@
 
 # --- https://www.educative.io/edpresso/how-to-implement-a-breadth-first-search-in-python
-graph = {
+dictonary = {
   'A' : ['B','C'],
   'B' : ['D', 'E'],
   'C' : ['F'],
@@ -17,7 +17,7 @@ def bfs(visited, graph, node):
   queue.append(node)
 
   while queue:
-    s = queue.pop(0)
+    s = queue.popleft
     print (s, end = " ")
 
     for neighbour in graph[s]:
@@ -26,4 +26,4 @@ def bfs(visited, graph, node):
         queue.append(neighbour)
 
 # Driver Code
-bfs(visited, graph, 'A')
+bfs(visited, dictonary, 'A')

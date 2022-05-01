@@ -6,7 +6,6 @@ class ListNode:
          self.next = next
 #from leetcode234 import ListNode
 
-
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         result = ListNode()
@@ -33,5 +32,3 @@ class Solution:
             result = newNode
             l2 = l2.next
         return dummy.next
-
-

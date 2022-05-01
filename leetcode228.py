@@ -38,5 +38,4 @@ print (res2[0])
 print (res2[3])
 
 res3 = [[0, 2], [4, 5], [7]]
-
 print(res3[-1][-1])
